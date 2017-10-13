@@ -3,7 +3,7 @@ import  requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-# fuction that extracts the results of the week of the first table of the football web
+# fuction that extracts the results of the week of the first table from the football web
 def ScrapingWeekResults(soup):
 	
 	tr = soup.find_all('div',{'id':'tablaresultados'})
@@ -103,7 +103,7 @@ def ScrapingClassification (soup):
 	df.to_csv('Classification.csv', index=False)
 
 
-# function that extracts the two tables of the Borsa web
+# function that extracts the two tables from the Borsa web
 def ScrapingBorsaTables(soup):
 
 	tr = soup.find_all('table',{'class':'TblPort'})
