@@ -5,6 +5,10 @@
   Oscar Ujaque Perez
   
   
+### Email : 
+   oujaque@uoc.edu
+   
+   
 ### Files attached:
 
 **1) scraping.py file**: It contains the Python code that generates the web scraping for the following webs:
