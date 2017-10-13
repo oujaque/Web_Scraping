@@ -16,7 +16,7 @@ def ScrapingWeekResults(soup):
 			img = el.find('img')
 			if a: 
 				value = a.contents[0] 
-				team.append(value
+				team.append(value)
 			if img: 
 				team.append(img['alt'])
 
