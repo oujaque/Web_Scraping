@@ -231,7 +231,7 @@ if __name__ == "__main__":
         # scraping borsa web
 		elif i == 1:
 			ScrapingBorsaTables(soup)
-            
+        # scraping complements of the classifcation in wikipedia 
 		elif i == 2:
 			scrapComplementsClassification(soup,team,df)
      
