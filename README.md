@@ -31,4 +31,4 @@ For the second web there is the folder "Ibex35" with:
 + Ibex35.csv: this file contains the main results of the IBEX35 in global.
 + EnterprisesShares: this file contains the main changes of each enterprise from Ibex35.
 
-**3) Answers sheet** : PDF file that contains the responses of the practice tasks.              
+**3)Practica1_UOC** : PDF file that contains the responses of the practice tasks.              
